@@ -1,0 +1,38 @@
+.navigation {
+    width: 100%;
+    justify-content: center;
+    display: inline-block;
+    text-align: center;
+    border-bottom: 1px solid #828282;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    color: var(--text-color);
+    width: 945px;
+     
+    @media (max-width: 375px) {
+        display: none;
+    }
+
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+    }
+    &__list {
+        position: relative;
+        padding-bottom: 15px;
+    }
+    &__link-first-child {
+        font-family: Gilroy-Bold;
+        color: var(--title-color);
+    }
+    &__link {
+        font-family: Gilroy-Bold;
+        font-size: 18px;
+        line-height: 22px;
+        color: var(--text-color);
+    }
+
+
+
+
+}

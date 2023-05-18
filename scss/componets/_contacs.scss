@@ -1,0 +1,78 @@
+.contacs {
+    @media (max-width: 375px) {
+        width: 375px;
+    }
+
+    &__title {
+        font-family: Gilroy-Bold;
+        font-size: 34px;
+        line-height: 42px;
+        text-align: center;
+        color: var(--title-color); 
+        margin-top: 115px;
+        margin-bottom: 20px;
+
+        @media (max-width: 375px) {
+            margin-bottom: 27px;
+        }
+    }
+
+    &__text {
+        color: var(--title-color);
+        margin-bottom: 30px;
+
+        @media (max-width: 375px) {
+            margin-bottom: 40px;
+        }
+    }
+    
+    &__button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        margin-bottom: 80px;
+        background-color: var(--title-color);
+        color: var(--background-color);
+        width: 180px;
+        height: 45px;
+        border-radius: 22.5px;
+        font-family: 'Gilroy-Bold';
+        
+        @media (max-width: 375px) {
+            margin-bottom: 50px;
+            width: 316px;
+            height: 45px;
+        }
+    }
+
+    &__social {
+        display: flex;
+        justify-content: center;
+        gap: 60px;
+        margin-bottom: 46px;
+
+        @media (max-width: 375px) {
+            gap: 52px;
+        }
+    }
+
+    &__like {
+        font-size: 14px;
+        line-height: 17px;
+        color: var(--text-color);
+    }
+
+    &__link {
+        display: flex;
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 125px;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    &__network {
+        color: var(--text-color);
+    }
+}

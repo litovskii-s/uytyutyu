@@ -1,0 +1,25 @@
+:root {
+    --background-color: #FFFFFF;
+    --brand-color: #F6F6F6;
+    --text-color: #828282;
+    --title-color: #070707;
+  }
+
+li {
+    list-style-type: none;
+  }
+a {
+    text-decoration: none;
+}
+body {
+    width: 1445px;
+    margin-left: 250px;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    @media (max-width: 375px) {
+      margin-left: 30px;
+  }
+}

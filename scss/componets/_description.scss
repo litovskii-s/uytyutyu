@@ -1,0 +1,46 @@
+.description {
+    padding-bottom: 107px;
+    padding-top: 120px;
+    background-color: var(--brand-color);
+
+    @media (max-width: 375px) {
+        width: 375px;
+        padding-top: 80px;
+        padding-bottom: 75px;
+    }
+
+    &__title {
+        font-family: Gilroy-Bold;
+        font-size: 34px;
+        line-height: 42px;
+        text-align: center;
+        color: var(--title-color);
+
+        @media (max-width: 375px) {
+            width: 375px;
+            margin-bottom: 30px;
+            margin-top: 0;
+        }
+
+    }
+
+    &__text{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 485px;
+        min-height: 220px;
+        text-align: center;
+        margin: 0 auto;
+        width: 945px;
+
+        @media (max-width: 375px) {
+            width: 316px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            max-width: 316px;
+            min-height: 261px;
+        }
+    }
+}
